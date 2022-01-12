@@ -1,0 +1,190 @@
+/* UTILITIES */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+   body {
+    font-family: ProximaNovaA-Bold;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
+    background-color:white;
+    color: #fff;
+   }
+   .menuitems{
+    color: #fdfeff;
+   }
+   .menuitems.console{
+       color: white;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 52px;
+   }
+
+
+   /* NAVBAR MENU */
+   .menuitems {
+    display: flex;
+    align-content: flex-end;
+    gap: 1em;
+    font-size: 15px;
+   }
+   .menuitems li:hover {
+    background-color: #4d8400;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menuitems li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU PRODUCT*/
+   .PRODUCT {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 20px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .PRODUCT:hover .dropdown {
+    display: block;
+   }
+   
+   /* DROPDOWN MENU RESOURSES*/
+   .RESOURCES {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #4d8400;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 20px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color:#4d8400;
+   }
+   .RESOURCES:hover .dropdown {
+    display: block;
+   }
+
+   /*DROPDOWN MENU ABOUT*/
+   .ABOUT {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #f1f1f1;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    border-radius: 8px;
+    top: 20px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color:#4d8400;
+   }
+   .ABOUT:hover .dropdown {
+    display: block;
+   }
+
+   .console{
+    color: #fff;
+    background: #4d8400;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 15px;
+    }
+    .console:hover{
+        color: #fff;
+        background: #4d8400;
+        border-radius: 10px;
+        padding: 8px 12px;
+        font-size: 15px;
+        margin-left: 15px; 
+    }
+    .header{
+            font-family: ProximaNovaA-Bold , cursive;
+            font-size: 18px;
+            color: #273747;
+            position: relative;
+            bottom: -50px;
+            left: 50px;
+            max-width: 50%;
+          
+    }
+     .Image{
+            display: flex;
+            align-content: stretch;
+            position:relative;
+            left: 800px;
+            bottom: 90px;
+            max-width: 100%;
+            height: auto;
+        }
+        .console1{
+            position: relative;
+            font-family: cursive;
+            background: #4d8400;
+            padding: 5px 10px;
+            align-content: flex-end;
+            font-size: 15px;
+            margin: 15px 55px 20px 55px;
+            bottom: 400px;
+            }
+    
+        .console1:hover{
+                background: #4d8400;
+                padding: 2.5px 5px;
+                font-size: 15px;
+                margin: 10px 50px 15px 50px;
+                /*cursor: pointer;*/
+            }
